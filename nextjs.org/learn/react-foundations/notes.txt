@@ -1,0 +1,9 @@
+Step 01:
+
+$ npm install
+
+Step 02:
+
+$ npm run dev
+
+Step 03: The web server is running on `localhost:3000`.
