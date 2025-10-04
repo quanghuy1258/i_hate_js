@@ -1,0 +1,14 @@
+Step 01: Using `pnpm` as the package manager instead of `npm` or `yarn`, as it's faster and more efficient. If `pnpm` is not installed, please install it globally by running:
+
+$ curl -fsSL https://get.pnpm.io/install.sh | sh -
+
+or
+
+$ wget -qO- https://get.pnpm.io/install.sh | sh -
+
+Step 02: Creating a Next.js app and storing it in the `my-nextjs-project` directory:
+
+$ npx create-next-app@latest my-nextjs-project --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example" --use-pnpm
+$ cd my-nextjs-project
+$ pnpm i
+$ pnpm dev
