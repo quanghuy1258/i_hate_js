@@ -15,3 +15,8 @@ Step 03: Run the project:
 $ cd my-nextjs-project
 $ pnpm i
 $ pnpm dev
+
+NOTE: Please check the version of NodeJS and try using NodeJS of version 20 if there are any problems:
+
+$ node -v
+$ nvm use 20
